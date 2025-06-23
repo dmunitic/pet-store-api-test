@@ -1,0 +1,52 @@
+# Core testing framework
+pytest==8.4.1
+pytest-html==4.1.1
+pytest-metadata==3.1.1
+
+# HTTP client and API testing
+requests==2.32.4
+urllib3==2.5.0
+
+# Configuration management
+pydantic==2.11.7
+pydantic-settings==2.9.1
+python-dotenv==1.1.0
+
+# Test data generation
+Faker==37.4.0
+
+# Data handling and validation
+pydantic_core==2.33.2
+annotated-types==0.7.0
+typing_extensions==4.14.0
+
+# JSON Schema validation (for API response validation)
+jsonschema==4.24.0
+jsonschema-specifications==2025.4.1
+referencing==0.36.2
+rpds-py==0.25.1
+
+# Core dependencies
+attrs==25.3.0
+certifi==2025.6.15
+charset-normalizer==3.4.2
+colorama==0.4.6
+idna==3.10
+iniconfig==2.1.0
+packaging==25.0
+pluggy==1.6.0
+
+# Template and rendering (for reports)
+Jinja2==3.1.6
+MarkupSafe==3.0.2
+Pygments==2.19.1
+
+# Type checking utilities
+types-urllib3==1.26.25.14
+typing-inspection==0.4.1
+
+# Timezone data
+tzdata==2025.2
+
+# Windows-specific (can be ignored on other platforms)
+win32_setctime==1.2.0
